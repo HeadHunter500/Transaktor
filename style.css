@@ -1,0 +1,317 @@
+*{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+#glavni{
+
+text-align: center;
+font-family: 'Lato';
+height:auto;
+}
+
+h1{
+font-size:70px;
+}
+
+h1,footer{
+background-color:#303030;/*#00B8E6;*/
+color:#DBD8D8;/*#ADFF85;*/
+margin-top: 0px;
+
+}
+
+body{
+background-color:#DBD8D8; /*#00CCFF;*/
+/*background-image: url("pozadina4.png");
+background-repeat: no-repeat;
+background-position: center; */
+}
+
+footer{
+
+padding-top:5px;
+padding-bottom:5px;
+
+clear:both;
+}
+
+
+
+
+
+/*
+#logoPC{
+float:left;
+}
+
+#logoAndroid{
+float:right;
+}
+
+#preuzimanje{
+
+width:250px;
+	height: auto;
+	margin: auto;
+}
+*/
+
+
+
+
+/*UBAČENO*/
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+
+
+#formaLog, #formaReg  {
+
+	width:250px;
+	height: auto;
+	margin: auto;
+	
+}
+
+
+#formaUplata, #formaIsplata{
+
+	
+	width: 250px;
+	height: auto;
+	margin-right: 38%;
+	
+	float:right;
+}
+
+
+.logoNovcanik{
+
+	width: 100%;
+	margin: auto;
+	width: 65px;
+	border-radius: 100px;
+	height: 65px;
+	background:#5F5F5F;  /*#00CCFF;*/ 
+	position: relative;
+	bottom: -15px;
+}
+.logoNovcanik img {
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+	margin: auto;
+	border:3px solid #DBD8D8;/*#fff;*/
+	display: block;
+}
+#formaLog input, #formaReg input , #formaUplata input, #formaIsplata input{
+	border: none;
+	background: #fff;
+  font-family:Lato ;
+  font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: calc(100% - 24px) ;
+	margin: auto;
+	padding: 6px 12px 6px 12px;
+	
+}
+.crta{
+	width: 100%;
+	height: 1px;
+	background: #fff ;
+}
+.crta i {
+	width: 95%;
+	margin: auto;
+	height: 1px ;
+	display: block;
+	background: #d1d1d1;
+}
+
+
+
+#formaLog input[type="text"] {
+	border-radius: 7px 7px 0px 0px ;
+}
+#formaLog input[type="password"] {
+	border-radius: 0px 0px 7px 7px ;
+}
+
+
+
+#formaReg input[id="username"]{
+	border-radius: 7px 7px 0px 0px; 
+}
+
+#formaReg input[id="pass1"]{
+	border-radius: 0px 0px 7px 7px ;
+}
+
+
+
+#formaUplata input [id="uplata"]{
+	border-radius: 7px 7px 0px 0px ;
+}
+
+#formaUplata input [id="iznos"]{
+	border-radius: 0px 0px 7px 7px ;
+}
+
+
+
+
+#formaLog button, #formaReg button, #formaUplata button , #formaIsplata button{
+	width: 100%;
+	border-radius: 7px;
+	background: #303030;/*#b6ee65;*/
+	text-decoration: center;
+	border: none;
+	color: #DBD8D8;/*#51771a;*/
+  margin-top:-5px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	outline: none;
+	font-size: 16px;	
+	font-weight:bold;
+	border-bottom: 3px solid #848282;/*#307d63;*/
+	cursor: pointer;
+}
+
+
+/*GLAVNA*/
+#izbornik{
+
+width:140px;
+height:auto;
+
+z-index: 1; 
+position:relative
+}
+
+#izbornik a:link{
+color:#303030;
+text-decoration:none;
+}
+
+#izbornik a:visited{
+color:#303030;
+text-decoration:none;
+}
+
+#izbornik a:hover{
+color:gray;
+text-decoration:none;
+}
+/*
+#izbornik a:active{
+color:blue;
+text-decoration:none;
+}
+*/
+
+/*REGISTRACIJA*/
+
+#reg a:link{
+color:#303030;
+text-decoration:none;
+}
+
+#reg a:visited{
+color:#303030;
+text-decoration:none;
+}
+
+
+/*popis isplata i uplata*/
+#ispis{
+
+	width: 55%; 
+	height: auto;
+	float:right;
+	margin: 0 auto;
+	margin-right:7%;
+	padding-bottom:10px;
+	
+}
+
+
+#ispis table{
+background-color:white;
+
+}
+
+#ispis th{
+background-color:gray;
+color:white;
+padding:5px;
+
+}
+
+#ispisTransakcije{
+
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	float:right;
+	margin-right:30%;
+	padding-bottom:10px;
+	
+	
+}
+
+#zadnjaUplata{
+
+float:left;
+}
+
+#zadnjaIsplata{
+
+float:right;
+}
+
+
+
+#ispisStatistike{
+
+	width:45%;
+	height: auto;
+	margin: 0 auto;
+	float:right;
+	margin-right:27%;
+	padding-bottom:10px;
+	
+}
+
+/*
+#kontejner{
+border:1px solid yellow;
+width:800px;
+height:auto;
+margin:0 auto;
+}
+*/
+
+#stanje{
+
+width:100%;
+position:absolute;
+
+margin-top:70px;
+font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
