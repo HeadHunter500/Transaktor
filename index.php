@@ -8,13 +8,7 @@
 			
 	</head>
 	
-<?php //session_destroy(); ?>
 
-	<body style="
-	background-image: url('pozadina.png');
-	background-repeat: no-repeat;
-	background-position:top center;
-	">
 		<div id="glavni">
 			
 			<header>
@@ -56,7 +50,7 @@
 			<br/>
 					
 			
-			<h3 style="color:#7A7272;"><i>"Never spend your money before you have earned it."<br/>Thomas Jefferson</i></h3>
+			<h3 style="color:#51771a;"><i>"Never spend your money before you have earned it."<br/>Thomas Jefferson</i></h3>
 		   
 			<footer>
 				<p>Kreirao:&nbsp;&nbsp;&nbsp;&nbsp;Matko Horvat</p>

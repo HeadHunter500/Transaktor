@@ -54,12 +54,12 @@
 		} 
 			
 			
-		if(($pass == null) or ($pass1 == null))
+	/* 	if(($pass == null) or ($pass1 == null))
 		{ 
 			echo ("Niste upisali lozinku!<br><br><a href='registracija.html'>Povratak</a><br>");
-		}
+		} */
 			
-		$link = mysqli_connect('localhost:3306','root','root', "transaktor");
+		$link = mysqli_connect('localhost:3306','root','root',"transaktor");
 
 
 		$result = mysqli_query("SELECT ime FROM korisnici where ime LIKE '".$username."'", $link);
